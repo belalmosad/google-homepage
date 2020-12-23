@@ -61,7 +61,7 @@ main {
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
-	height: 70vh;
+	height: 82vh;
 }
 
 main div
@@ -103,18 +103,49 @@ main div
 }
 
 footer {
-	background-color: grey;
-	height: 20vh;
-	height: 20vh;
+	background-color: #9e9e9e45;
+	height: 8vh;
+	
 }
-.country {
+.right {
 	float: right;
-}
-..right{
-	float: right;
-}
+	
 
+}
+.right ul {
+	list-style: none;
+	float: right;
+	display: flex;
+	margin: 0px;
+	padding: 0px;
+	vertical-align: middle;
+	line-height: 8vh;
+
+}
+.right ul li a {
+	margin-right: 10px;
+	text-decoration: none;
+	color: dimgrey;
+}
+.right ul li:hover {
+	text-decoration: underline;
+}
 .left {
 	float: left;
+	display: flex;
 }
+.left a {
+	vertical-align: middle;
+	line-height: 8vh;
+	margin:0px;
+	padding: 0px;
+	color: dimgrey;
+	margin-left: 10px;
+	text-decoration: none;
+
+}
+.left a:hover {
+	text-decoration: underline;
+}
+
 
